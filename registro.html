@@ -46,11 +46,11 @@ for(i=0; i<=2; i++)
 {
   Promedio ="promedio(number(person[i].nota1),number(person[i].nota2), number(person[i].nota3))";
   nota_final= "final(number(promedio))";
-  text += "<tr><td> "+"person[i].firstName + "</td<td> "+ person[i].lastName + "</td><td>";
+  text += "<tr><td> "+"person[i].firstName + "</td<td> "+ person[i].lastName + "</td><td>"
   text += "person[i].nota1 + "</td><td> "+ person[i].nota2 + "</td><td> "+ person[i].notae3 +  "</td><td> ";
   text += "promedio+ "</td><td> " +nota_final + "</td><td> ";
   }
-  text +="<table></center>";
+  text +="<table></center>"
   //display some data from the object:
   document.getElementbyId("demo").innerHTML = text ;
 </script> 
