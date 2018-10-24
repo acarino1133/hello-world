@@ -8,7 +8,7 @@
 <script>
 // creat an object:
 var person =[{firstName:"jose", lastName:"rebollo", nota1:50, nota2:90, nota3:70 },
-             {firstName:"valeria", lastName:"ortiz", nota1:70, nota2:60, nota3:90 }'
+             {firstName:"valeria", lastName:"ortiz", nota1:70, nota2:60, nota3:90 },
 	     {firstName:"zoe", lastName:"rivera", nota1:80, nota2:50, nota3:80 }];
 			 
 var text="";
@@ -42,7 +42,7 @@ text += personi[i].age + " "+person[i].eyeColor + "<br> ";
 text = "<center><table style=width:50% border=2><tr><th>nombre</th><th>apellido</th>"
 text += "<th>nota1</th><th>nota2</th><th>nota3</th><th>promedio</th><th>final</th></tr>;
 
-for(i=0;i<=2;i++)
+for(i=0; i<=2; i++)
 {
   Promedio =promedio(number(person[i].nota1),number(person[i].nota2), number(person[i].nota3));
   nota_final= final(number(promedio));
